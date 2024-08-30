@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    
+
+}
+
+html {
+    background-color: #141414;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #1f1f1f;
+      font-size: 16px;
+      color: whitesmoke;
+      width: 340px;
+      height: 550px;
+      margin-top: 8em;
+      border-radius: 10px;
+  }
+
+li {
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+.git , .fm, .link, .twit, .insta {
+    background-color:#333333;
+    margin: 1rem;
+    padding: 0.8rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    
+}
+
+.git:hover , .fm:hover, .link:hover, .twit:hover, .insta:hover {
+    background-color: #c5f82a;
+    color: #141414;
+}
+
+
+h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+    text-align: center;
+    ma
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+ 
+.profile{
+    text-align: center;
+}
+
+.location{
+    color:  #c5f82a;
+    font-size: 0.9rem;
+    margin-bottom: 1.3rem;
+}
+
+.quote{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
